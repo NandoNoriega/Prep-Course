@@ -1,9 +1,21 @@
+body{
+    background-attachment: fixed;
+    background-image: url('https://fondosmil.com/fondo/46044.jpg');
+    background-size: cover;
+}
 h1{
     color : blueviolet;
 }
 
 img{
     width: 400px;
+}
+
+div{
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+ 
 }
 
 #thirdDiv{
@@ -14,9 +26,14 @@ img{
     border: 5px;
     border-color: brown;
     border-style: dotted;
-}
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 #spanId{
     font-size: 18px;
     margin: 50px;
+}
+li{
+    list-style: none;
 }

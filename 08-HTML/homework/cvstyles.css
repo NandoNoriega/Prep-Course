@@ -1,0 +1,34 @@
+.circular{
+    border-radius: 50%;
+    width: 180px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .experiencia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  #columnaUno{
+    width: 25%;
+  }
+
+  #experienciaProfesional{
+    padding-left: 30px;
+   
+  }
+
+  .descripcionExperiencia{
+    padding-left: 10px;
+  }
+
+  .fechaExperiencia{
+    width: 100px;
+  }
+    
